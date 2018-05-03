@@ -1,0 +1,80 @@
+#+TITLE: DM1 Week 01 Lab01
+#+LANGUAGE: en
+#+OPTIONS: H:4 num:nil toc:nil \n:nil @:t ::t |:t ^:t *:t TeX:t LaTeX:t
+#+OPTIONS: html-postamble:nil
+#+STARTUP: showeverything entitiespretty
+#+SETUPFILE: ../theme-bigblow.setup
+
+Please Set Timers, They will be part of your grade.
+
+As a group or individually create a public repo on github.
+Then create your own file with your solutions.  Please include
+the name of each team member. 
+
+* TODO Welcome to the world of unicorns, goblins
+In this world unicorns only tell the truth.
+Goblins only lie.
+A says: B is a unicorn.
+B says: A and I are opposite type.
+
+What is A:
+What is B:
+
+* TODO 8 duds and 1 armed bomb.
+Some idiot forgot to disarm a bomb that is laid in the 'decomisioned' bomb pile.
+Unfortunately the only way to tell which bomb is armed is to use a special weighing system.
+To add insult to injury we don't know if the armed bomb weighs less or more on the system just that it weighs differently.
+But there is yet another catch the weighing system only have two charges left, but it can weight any number of bombs at once.
+Your job is to tell which 1 bomb out of the 9 bombs is armed while only using the weighing machine twice.
+
+* TODO The BEAST
+The Shoe Shack has made several top-dollar sales today. 
+Using only the clues below, match each customer to their foot size, 
+shoe brand and final purchase price.
+
+No option in any category will ever be used more than once.  
+
+1. The $185 pair was 4 sizes smaller than Natalie's pair.
+2. The Cormano footwear was somewhat smaller than the Williford footwear.
+3. The Schtillet footwear was somewhat larger than Marie's pair.
+4. The $125 pair was somewhat larger than Marie's pair.
+5. Lucia's pair wasn't made by Tinghill.
+6. Of the $185 pair and the size 9 set, one was bought by Francine and the other was by Graffetz.
+7. The $245 pair wasn't made by Tinghill.
+8. The $260 pair was 2 sizes larger than Vanessa's pair.
+9. The Williford footwear was 1 size smaller than Francine's pair.
+10. The $125 pair was 2 sizes smaller than Ruth's pair.
+11. The $215 pair was 5 sizes smaller than the $170 pair.
+12. The $185 pair was 2 sizes smaller than Lucia's pair.
+13. The Schtillet footwear was either Ruth's pair or the size 5 set.
+14. The Abbott Hill footwear was 5 sizes larger than the $215 pair.
+15. The Williford footwear was 1 size smaller than the $245 pair.
+
+Solution
+
+| Shoe Sizes | Customers | Brands | Prices |
+|          4 |           |        |        |
+|          5 |           |        |        |
+|          6 |           |        |        |
+|          7 |           |        |        |
+|          8 |           |        |        |
+|          9 |           |        |        |
+|         10 |           |        |        |
+
+* TODO Exercises
+In 01-ponder do every third exercise. 
+That is if you start at the first or 1st then you need to do 4th,
+but if you start at 3rd then you need to do the 6th.
+
+You must put them in this file!
+
+* DO NOT INCLUDE THIS PART BELOW FOR THE LAB
+* ######## FOR PUZZLES AND PROJECTS #########
+A more Brother Neff-like assignment, with a Brother Benning twist!
+
+Please Complete all Problems and Puzzles including the 'optional ones', but skipping the exercises.
+I would recommend working together.  As always I will give out hints
+periodically.
+
+(NOTE:I would keep all your exercises/problems/puzzles you do, if you
+take DM 2, you may find these extreeeeeeeeeemly helpful, or not)
