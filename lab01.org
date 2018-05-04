@@ -11,21 +11,37 @@ As a group or individually create a public repo on github.
 Then create your own file with your solutions.  Please include
 the name of each team member. 
 
-* TODO Welcome to the world of unicorns, goblins
+* DONE Welcome to the world of unicorns, goblins
+  CLOSED: [2018-05-03 Thu 12:18]
 In this world unicorns only tell the truth.
 Goblins only lie.
 A says: B is a unicorn.
 B says: A and I are opposite type.
 
-What is A:
-What is B:
+What is A: goblin
+What is B: goblin
 
-* TODO 8 duds and 1 armed bomb.
+* DONE 8 duds and 1 armed bomb.
+  CLOSED: [2018-05-03 Thu 11:18]
 Some idiot forgot to disarm a bomb that is laid in the 'decomisioned' bomb pile.
 Unfortunately the only way to tell which bomb is armed is to use a special weighing system.
 To add insult to injury we don't know if the armed bomb weighs less or more on the system just that it weighs differently.
 But there is yet another catch the weighing system only have two charges left, but it can weight any number of bombs at once.
 Your job is to tell which 1 bomb out of the 9 bombs is armed while only using the weighing machine twice.
+
+Answer: 
+split 9 bombs into 3 groups of 3. 
+weigh 1: group 1 and group 2
+If group 1 and group 2 are different weights
+   the heavier group has the armed bomb in it.
+   weigh 2: weigh 2 of the bombs from the heavier group
+   If one of the bombs weighs more that is the armed bomb
+   Otherwise the bomb that was not weighed is the armed bomb
+If group 1 and group 2 are the same weight
+   the armed bomb is in group 3
+   weigh 2: weigh 2 of the bombs from group 3
+   If one of the bombs weighs more that is the armed bomb
+   Otherwise the bomb that was not weighed is the armed bomb
 
 * TODO The BEAST
 The Shoe Shack has made several top-dollar sales today. 
@@ -52,14 +68,14 @@ No option in any category will ever be used more than once.
 
 Solution
 
-| Shoe Sizes | Customers | Brands | Prices |
-|          4 |           |        |        |
-|          5 |           |        |        |
-|          6 |           |        |        |
-|          7 |           |        |        |
-|          8 |           |        |        |
-|          9 |           |        |        |
-|         10 |           |        |        |
+| Shoe Sizes | Customers | Brands     | Prices |
+|          4 |           |            |        |
+|          5 |           |            | $215   |
+|          6 | Lucia     |            |        |
+|          7 |           |            |        |
+|          8 |           | Willford   |        |
+|          9 | Francine  |            | $245   |
+|         10 |           | Abbot Hill | $170   |
 
 * TODO Exercises
 In 01-ponder do every third exercise. 
@@ -68,6 +84,168 @@ but if you start at 3rd then you need to do the 6th.
 
 You must put them in this file!
 
+** DONE UCA
+   CLOSED: [2018-05-03 Thu 11:43]
+#+begin_note
+  Start your exercise warmup by thinking up three examples and three
+  non-examples of propositions. Make them pithy.
+#+end_note
+#+begin_info
+ Three Propositions:
+     1. My name is Marie.
+     2. The sky is blue.
+     3. My birthday was in January.
+
+   Three Non-Propositions:
+     1. Can you help me make these cookies?
+     2. Get out of here!
+     3. Don't worry about it.
+#+end_info
+** DONE OGR
+   CLOSED: [2018-05-03 Thu 11:45]
+#+begin_note
+  Which of the following are simple (not compound) propositions?
+
+  1. Weeks are shorter than months.
+  2. Days are longer than hours and minutes.
+  3. Hours are longer than minutes and seconds are shorter than minutes.
+  4. People can fly or pigs can sing.
+#+end_note
+#+begin_info
+  1. Weeks are shorter than months.
+     simple proposition
+
+  2. Days are longer than hours and minutes.
+     compound proposition
+
+  3. Hours are longer than minutes and seconds are shorter than minutes.
+     compound proposition
+
+  4. People can fly or pigs can sing.
+     compound proposition
+#+end_info
+** DONE UOX
+   CLOSED: [2018-05-03 Thu 11:47]
+#+begin_note
+  What other special forms besides =if= does elisp have for doing conditionals?
+  Why are they called \ldquo{}special\rdquo?
+:HINT:
+  - Hint :: You can find at least six.
+:END:
+#+end_note
+#+begin_info
+   Q1. What other special forms besides =if= does elisp have for doing conditionals?
+   A1. when, unless, cond
+  
+   Q2. Why are they called \ldquo{}special\rdquo?
+   A2. They are called special because "special forms" are specially marked so their arguments aren't all evaluated.
+#+end_info
+** DONE UIN
+   CLOSED: [2018-05-03 Thu 11:48]
+#+begin_note
+  What is the set difference between the set of letters in the English alphabet
+  and the set of letters in the Hawaiian alphabet?
+#+end_note
+#+begin_info
+  The Hawaiian alphabet contains the letters: A B D E H I K L M N O P R T U V
+  and W. Therefore, the set difference is: C F G J Q S X Y Z.
+#+end_info
+** DONE OQT
+   CLOSED: [2018-05-03 Thu 11:51]
+#+begin_note
+  Let /p/ and /q/ be the propositions:
+
+  /p/: I studied.
+
+  /q/: I got an A on the test.
+
+  Express each of the propositions below as an English sentence:
+  1. /p/ \rarr /q/
+  2. \not /p/ \lor \not /q/
+  3. \not /p/ \rarr (p \lor q)
+  4. \not /p/ \rarr \not /q/
+#+end_note
+#+begin_info
+  1. p \rarr q
+     I studied only if I got an A on the test.
+  
+  2. \not p \lor \not q
+     I did not study or I did not get an A on the test.
+
+  3. \not p \rarr (p \lor q)
+     I did not study only if I either studied or got an A on the test.
+
+  4. \not p \rarr \not q
+     I did not study only if I did not get an A on the test.
+
+#+end_info
+** DONE OLH
+   CLOSED: [2018-05-03 Thu 12:07]
+#+begin_note
+  Use truth tables to verify the associative laws.
+  1. $(p \vee q) \vee r \equiv p \vee (q \vee r)$
+  2. $(p \wedge q) \wedge r \equiv p \wedge (q \wedge r)$
+#+end_note
+#+begin_info
+  1. (p \lor q) \lor r \equiv p \lor (q \lor r)
+     | p | q | r | p v q | (p v q) v r | (q v r) | p v (q v r) | \equiv |
+     | 0 | 0 | 0 |     0 |           0 |       0 |           0 | 1 |
+     | 0 | 0 | 1 |     0 |           1 |       1 |           1 | 1 |
+     | 0 | 1 | 0 |     1 |           1 |       1 |           1 | 1 |
+     | 0 | 1 | 1 |     1 |           1 |       1 |           1 | 1 |
+     | 1 | 0 | 0 |     1 |           1 |       0 |           1 | 1 |
+     | 1 | 0 | 1 |     1 |           1 |       1 |           1 | 1 |
+     | 1 | 1 | 0 |     1 |           1 |       1 |           1 | 1 |
+     | 1 | 1 | 1 |     1 |           1 |       1 |           1 | 1 |
+
+   2. (p \land q) \land r \equiv p \land (q \land r)
+     | p | q | r | p \land q | (p \land q) \land r | (q \land r) | p \land (q \land r) | \equiv |
+     | 0 | 0 | 0 |     0 |           0 |       0 |           0 | 1 |
+     | 0 | 0 | 1 |     0 |           0 |       0 |           0 | 1 |
+     | 0 | 1 | 0 |     0 |           0 |       0 |           0 | 1 |
+     | 0 | 1 | 1 |     0 |           0 |       1 |           0 | 1 |
+     | 1 | 0 | 0 |     0 |           0 |       0 |           0 | 1 |
+     | 1 | 0 | 1 |     0 |           0 |       0 |           0 | 1 |
+     | 1 | 1 | 0 |     1 |           0 |       0 |           0 | 1 |
+     | 1 | 1 | 1 |     1 |           1 |       1 |           1 | 1 |
+#+end_info
+** DONE USL
+   CLOSED: [2018-05-03 Thu 12:14]
+#+begin_note
+  Use truth tables to verify some miscellaneous laws, letting $\mathbf{1}$ =
+  true, $\mathbf{0}$ = false:
+  1. $p \land \mathbf{1} \equiv p$ (idempotence)
+  2. $p \lor \mathbf{0} \equiv p$ (idempotence)
+  3. $\lnot \lnot p \equiv p$ (double negation)
+  4. $p \land \mathbf{0} \equiv \mathbf{0}$ (absorption)
+  5. $p \lor \mathbf{1} \equiv \mathbf{1}$ (absorption)
+#+end_note
+#+begin_info
+  1. p \land 1 \equiv p (idempotence)
+     | p | 1 | p \land 1 | \equiv |
+     | 0 | 1 |     0 | 1 |
+     | 1 | 1 |     1 | 1 |
+
+  2. p \lor 0 \equiv p (idempotence)
+     | p | 0 | p \lor 0 | \equiv |
+     | 0 | 0 |     0 | 1 |
+     | 1 | 0 |     1 | 1 |
+
+  3. \not \not p \equiv p (double negation)
+     | p | \not \not p | \equiv |
+     | 0 |     0 | 1 |
+     | 1 |     1 | 1 |
+
+  4. p \land 0 \equiv 0 (absorption)
+     | p | 0 | p \land 0 | \equiv |
+     | 0 | 0 |     0 | 1 |
+     | 1 | 0 |     0 | 1 |
+
+  5. p \lor 1 \equiv 1 (absorption)
+     | p | 1 | p \lor 1 | \equiv |
+     | 0 | 1 |     1 | 1 |
+     | 1 | 1 |     1 | 1 |
+#+end_info
 * DO NOT INCLUDE THIS PART BELOW FOR THE LAB
 * ######## FOR PUZZLES AND PROJECTS #########
 A more Brother Neff-like assignment, with a Brother Benning twist!
