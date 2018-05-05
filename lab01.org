@@ -43,7 +43,8 @@ If group 1 and group 2 are the same weight
    If one of the bombs weighs more that is the armed bomb
    Otherwise the bomb that was not weighed is the armed bomb
 
-* TODO The BEAST
+* DONE The BEAST
+  CLOSED: [2018-05-05 Sat 16:25]
 The Shoe Shack has made several top-dollar sales today. 
 Using only the clues below, match each customer to their foot size, 
 shoe brand and final purchase price.
@@ -69,15 +70,18 @@ No option in any category will ever be used more than once.
 Solution
 
 | Shoe Sizes | Customers | Brands     | Prices |
-|          4 |           |            |        |
-|          5 |           |            | $215   |
-|          6 | Lucia     |            |        |
-|          7 |           |            |        |
-|          8 |           | Willford   |        |
-|          9 | Francine  |            | $245   |
-|         10 |           | Abbot Hill | $170   |
+|          4 | Marie     | Graffetz   | $185   |
+|          5 | Vanessa   | Schtillet  | $215   |
+|          6 | Lucia     | Cormano    | $155   |
+|          7 | Estelle   | Tinghall   | $260   |
+|          8 | Natalie   | Willford   | $125   |
+|          9 | Francine  | Marz       | $245   |
+|         10 | Ruth      | Abbot Hill | $170   |
 
-* TODO Exercises
+https://docs.google.com/spreadsheets/d/15CGzcPIj87uu8YXdWgQiPofVOlNPj8CFLyXbJf9d8TY/edit#gid=0
+
+* DONE Exercises
+  CLOSED: [2018-05-05 Sat 16:25]
 In 01-ponder do every third exercise. 
 That is if you start at the first or 1st then you need to do 4th,
 but if you start at 3rd then you need to do the 6th.
